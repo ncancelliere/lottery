@@ -27,7 +27,7 @@
 		E19E055A133FFA76004EFB48 /* lottery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lottery; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19E055E133FFA76004EFB48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E19E0561133FFA76004EFB48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E19E0564133FFA76004EFB48 /* lottery-Prefix.pch */ = {isa = PBXFileReference; path = "lottery-Prefix.pch"; sourceTree = "<group>"; };
+		E19E0564133FFA76004EFB48 /* lottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lottery-Prefix.pch"; sourceTree = "<group>"; };
 		E19E0565133FFA76004EFB48 /* lottery.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = lottery.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
