@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E118610A134008A00001A671 /* LotteryEntry.h in Sources */ = {isa = PBXBuildFile; fileRef = E1186108134008A00001A671 /* LotteryEntry.h */; };
+		E118610B134008A00001A671 /* LotteryEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = E1186109134008A00001A671 /* LotteryEntry.m */; };
 		E19E055F133FFA76004EFB48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19E055E133FFA76004EFB48 /* Foundation.framework */; };
 		E19E0562133FFA76004EFB48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19E0561133FFA76004EFB48 /* main.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1186108134008A00001A671 /* LotteryEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; path = LotteryEntry.h; sourceTree = "<group>"; };
+		E1186109134008A00001A671 /* LotteryEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryEntry.m; sourceTree = "<group>"; };
 		E19E055A133FFA76004EFB48 /* lottery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lottery; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19E055E133FFA76004EFB48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E19E0561133FFA76004EFB48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				E19E0561133FFA76004EFB48 /* main.m */,
+				E1186108134008A00001A671 /* LotteryEntry.h */,
+				E1186109134008A00001A671 /* LotteryEntry.m */,
 				E19E0565133FFA76004EFB48 /* lottery.1 */,
 				E19E0563133FFA76004EFB48 /* Supporting Files */,
 			);
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19E0562133FFA76004EFB48 /* main.m in Sources */,
+				E118610A134008A00001A671 /* LotteryEntry.h in Sources */,
+				E118610B134008A00001A671 /* LotteryEntry.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +228,7 @@
 				E19E056A133FFA76004EFB48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
