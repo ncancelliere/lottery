@@ -20,10 +20,12 @@
     return result;
 }
 
-- (void)prepareRandomNumbers
+- (id)init
 {
+    [super init];
     firstNumber  = random() % 100 + 1;
     secondNumber = random() % 100 + 1;
+    return self;
 }
 
 - (void)setEntryDate:(NSCalendarDate *)date
